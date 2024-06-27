@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    margin: 0;
+}
+
+.content .text-content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.list-item {
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.list-item .first-item {
+    text-align: center;
+}
+
+.list-item .second-item {
+    text-align: center;
+}
+
+.list-item .last-item {
+    text-align: center;
+}
+
